@@ -1108,7 +1108,7 @@ runcode(function()
 	local ClickTPVertical = {["Enabled"] = true}
 	local ClickTPVelocity = {["Enabled"] = false}
 	ClickTP = GuiLibrary["ObjectsThatCanBeSaved"]["BlatantWindow"]["Api"].CreateOptionsButton({
-		["Name"] = "MouseTP", 
+		["Name"] = "funny", 
 		["Function"] = function(callback) 
 			if callback then
 				RunLoops:BindToHeartbeat("MouseTP", 1, function()
